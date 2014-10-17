@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.theapp.whichfishthisfishliteversion.SearchFishListFragment">
+    <TextView
+        android:id="@+id/header"
+        android:textStyle="bold"
+        android:layout_margin="@dimen/indent_margin"
+        android:textSize="@dimen/second_header_text_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header">
+    </ListView>
+</RelativeLayout>

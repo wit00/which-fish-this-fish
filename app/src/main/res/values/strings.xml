@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Which Fish? This Fish!</string>
+    <string name="action_main">Which Fish?</string>
+    <string name="action_sort">Sort Fish</string>
+    <string name="action_search">Keyboard Search</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_display_fish_detail">This fish!</string>
+    <string name="search_hint">Search for a fish</string>
+    <string name="title_activity_search">Search Results</string>
+    <string name="search_activity">SearchActivity</string>
+    <string name="search_description">SearchActivity</string>
+    <string name="sad_fish_image">Avoid this fish</string>
+    <string name="ok_fish_image">This fish has positives and negatives.</string>
+    <string name="happy_fish_image">This fish is great to eat, few to no problems!</string>
+    <string name="OK">OK</string>
+
+    <!-- Main Activity -->
+
+    <string name="title_activity_settings">Settings</string>
+    <string name="setting_up_json">Updating your fish. This will take just a moment.</string>
+
+
+    <!-- Detail Activity -->
+    <string name="Sustainable_tab">Sustainability</string>
+    <string name="How_to_use_tab">How to Use</string>
+    <string name="Nutrition_tab">Nutrition</string>
+    <!-- Settings Activity -->
+    <string name="sorting_options">Sorting Options</string>
+    <string name="application_reset">Your application has been reset.</string>
+    <string name="application_reset_message">If you continue to have any problems with this application, please contact our support team.</string>
+    <string name="header_1">Application Settings</string>
+    <string name="header_2">Help</string>
+    <string name="change_sort_row_title">Change Default Sort</string>
+    <string name="change_sort_row_text">This application begins with a list of fish. You can change the default way that list is sorted here.</string>
+    <string name="suggest_a_fish_title">Suggest a Fish</string>
+    <string name="suggest_a_fish_text">Did we miss a fish? Send us an email and we\'ll do our best to add it in the next update.</string>
+    <string name="contact_support_row_title">Contact Support</string>
+    <string name="contact_support_row_text">Having Problems? Send an email to our technical team.</string>
+    <string name="reset_row_title">Reset Application</string>
+    <string name="reset_row_text">Having trouble with the application? You can reset the database here.</string>
+    <string name="resetting_fish">Resetting the application. This will take less than 5 minutes.</string>
+
+    <!-- fish detail nutrition tab -->
+    <string name="calories">Calories</string>
+    <string name="protein">Protein</string>
+    <string name="NutritionalInformation">Nutritional Information</string>
+    <string name="servings">Servings</string>
+    <string name="serving_weight">Serving Weight</string>
+    <string name="saturated_fat">Saturated Fat</string>
+    <string name="total_fat">Total Fat</string>
+    <string name="carbohydrates">Carbohydrates</string>
+    <string name="total_sugar">Total Sugar</string>
+    <string name="total_fiber">Total Fiber</string>
+    <string name="cholesterol">Cholesterol</string>
+    <string name="sodium">Sodium</string>
+    <string name="selenium">Selenium</string>
+
+    <!-- fish detail how to use tab -->
+    <string name="compare_to">Substitute: </string>
+    <string name="recipe_suggestion">Cooking Suggestions</string>
+
+    <!-- display fish detail fragment layout  -->
+    <string name="fish_name">Fish Name</string>
+    <string name="available_at">Available at</string>
+    <string name="fish_image_description">A picture of this fish.</string>
+    <string name="fish_rank_description"></string>
+    <string name="population">Population</string>
+    <string name="fishing_rate">Fishing Rate</string>
+    <string name="impact_on_habitat">Impact on Habitat</string>
+    <string name="fishing_effects">Fishing Effects</string>
+    <string name="sources">Sources</string>
+
+    <!-- Fish Ranking Explanation Dialog -->
+    <string name="happy_fish_explanation">These fish are sustainably fished. They have high population levels and low levels of negative environmental impact.</string>
+    <string name="ok_fish_explanation">These fish are a little more difficult. They might have low population levels or might be easily confused with another fish that does. Read the explanation and take care when buying. </string>
+    <string name="sad_fish_explanation">These fish have serious problems either environmentally or with sustainability. Eat them sparingly.</string>
+    <string name="fish_ranking_explanation_title">What do these pictures mean?</string>
+    <string name="fish_image_content_description">An image of this fish</string>
+    <string name="detail_population">Population</string>
+    <string name="detail_sources">Sources</string>
+    <string name="detail_harvesting">Harvesting</string>
+    <string name="detail_fishing_effects">Fishing Effects</string>
+    <string name="detail_impact_on_habitat">Impact on Habitat</string>
+    <string name="detail_fishing_rate">Fishing Rate</string>
+    <string name="detail_details">Details</string>
+    <string name="menu_rank_explanation">Rank Explanation</string>
+    <string name="fish_rank_image_content_description">this fish\'s rank</string>
+    <string name="use_rarely">Use Rarely.</string>
+    <string name="more_information">Read description form more information.</string>
+    <string name="good_choice">A great choice!</string>
+    <string name="whats_it_like">What\'s it Like?</string>
+    <string name="fish_loading_no_list">Which Fish is loading your fishes. This can take a few minutes, especially if it\'s the first time you\'ve used this application. Your fish will appear once they\'ve been loaded into the database.</string>
+
+</resources>

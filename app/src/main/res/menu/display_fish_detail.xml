@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.theapp.whichfishthisfish.DisplayFishDetailActivity" >
+    <item android:id="@+id/action_search"
+        android:title="@string/action_search"
+        android:icon="@drawable/ic_action_search"
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_action_settings"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/rank_explanation"
+        android:title="@string/menu_rank_explanation"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_help"
+        app:showAsAction="ifRoom"/>
+
+</menu>

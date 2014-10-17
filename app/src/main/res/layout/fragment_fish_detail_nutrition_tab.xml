@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="@dimen/basic_padding"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="@dimen/indent_margin"
+            android:layout_marginLeft="@dimen/indent_margin"
+            android:layout_marginRight="@dimen/indent_margin"
+            android:textSize="@dimen/standard_text_size"
+            android:id="@+id/nutritional_overview"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content" />
+        <TableLayout
+            android:layout_below="@id/nutritional_overview"
+            android:layout_centerInParent="true"
+            android:layout_margin="@dimen/indent_margin"
+            android:layout_width="fill_parent"
+            android:shrinkColumns="0,1"
+            android:layout_height="wrap_content">
+            <TableRow style="@style/BasicSection"
+                android:id="@+id/Title"
+                android:background="@color/which_fish_blue"
+                android:padding="5dp"
+                android:gravity="center_horizontal" >
+                <TextView
+                    android:id="@+id/TitleText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/NutritionalInformation"
+                    android:textSize="@dimen/second_header_text_size"
+                    android:textStyle="bold" >
+                </TextView>
+            </TableRow>
+            <TableRow
+                android:id="@+id/Servings"
+                android:gravity="center_horizontal" >
+                <TextView style="@style/NutritionLabel"
+                    android:text="@string/servings"
+                    android:id="@+id/ServingsLabel" >
+                </TextView>
+                <TextView style="@style/NutritionText"
+                    android:id="@+id/ServingsValue">
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/ServingsWeight"
+                android:gravity="center_horizontal" >
+                <TextView style="@style/NutritionLabel"
+                    android:id="@+id/ServingsWeightLabel"
+                    android:text="@string/serving_weight">
+                </TextView>
+                <TextView style="@style/NutritionText"
+                    android:id="@+id/ServingsWeightValue">
+                </TextView>
+            </TableRow>
+            <TableRow
+                android:id="@+id/Calories"
+                android:gravity="center_horizontal" >
+                <TextView style="@style/NutritionLabel"
+                    android:id="@+id/CaloriesLabel"
+                    android:text="@string/calories" >
+                </TextView>
+                <TextView style="@style/NutritionText"
+                    android:id="@+id/CaloriesValue">
+                </TextView>
+            </TableRow>
+            <TableRow
+                android:id="@+id/Protein"
+                android:gravity="center_horizontal" >
+                <TextView style="@style/NutritionLabel"
+                    android:id="@+id/ProteinLabel"
+                    android:text="@string/protein">
+                </TextView>
+                <TextView style="@style/NutritionText"
+                    android:id="@+id/ProteinValue">
+                </TextView>
+            </TableRow>
+            <TableRow
+                android:id="@+id/SatFat"
+                android:gravity="center_horizontal" >
+                <TextView style="@style/NutritionLabel"
+                    android:id="@+id/SatFatLabel"
+                    android:text="@string/saturated_fat">
+                </TextView>
+                <TextView style="@style/NutritionText"
+                    android:id="@+id/SatFatValue">
+                </TextView>
+            </TableRow>
+            <TableRow
+                android:id="@+id/TotalFat"
+                android:gravity="center_horizontal" >
+                <TextView style="@style/NutritionLabel"
+                    android:id="@+id/TotalFatLabel"
+                    android:text="@string/total_fat">
+                </TextView>
+                <TextView style="@style/NutritionText"
+                    android:id="@+id/TotalFatValue">
+                </TextView>
+            </TableRow>
+            <TableRow
+                android:id="@+id/Carbs"
+                android:gravity="center_horizontal" >
+                <TextView style="@style/NutritionLabel"
+                    android:id="@+id/CarbsLabel"
+                    android:text="@string/carbohydrates">
+                </TextView>
+                <TextView style="@style/NutritionText"
+                    android:id="@+id/CarbsValue">
+                </TextView>
+            </TableRow>
+            <TableRow
+                android:id="@+id/TotalSugar"
+                android:gravity="center_horizontal" >
+                <TextView style="@style/NutritionLabel"
+                    android:id="@+id/TotalSugarLabel"
+                    android:text="@string/total_sugar" >
+                </TextView>
+                <TextView style="@style/NutritionText"
+                    android:id="@+id/TotalSugarValue">
+                </TextView>
+            </TableRow>
+            <TableRow
+                android:id="@+id/TotalFiber"
+                android:gravity="center_horizontal" >
+                <TextView style="@style/NutritionLabel"
+                    android:id="@+id/TotalFiberLabel"
+                    android:text="@string/total_fiber">
+                </TextView>
+                <TextView style="@style/NutritionText"
+                    android:id="@+id/TotalFiberValue">
+                </TextView>
+            </TableRow>
+            <TableRow
+                android:id="@+id/Cholesterol"
+                android:gravity="center_horizontal" >
+                <TextView style="@style/NutritionLabel"
+                    android:id="@+id/CholesterolLabel"
+                    android:text="@string/cholesterol" >
+                </TextView>
+                <TextView style="@style/NutritionText"
+                    android:id="@+id/CholesterolValue">
+                </TextView>
+            </TableRow>
+            <TableRow
+                android:id="@+id/Sodium"
+                android:gravity="center_horizontal" >
+                <TextView style="@style/NutritionLabel"
+                    android:id="@+id/SodiumLabel"
+                    android:text="@string/sodium">
+                </TextView>
+                <TextView style="@style/NutritionText"
+                    android:id="@+id/SodiumValue">
+                </TextView>
+            </TableRow>
+            <TableRow
+                android:id="@+id/Selenium"
+                android:gravity="center_horizontal" >
+                <TextView style="@style/NutritionLabel"
+                    android:id="@+id/SeleniumLabel"
+                    android:text="@string/selenium" >
+                </TextView>
+                <TextView style="@style/NutritionText"
+                    android:id="@+id/SeleniumValue">
+                </TextView>
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+</ScrollView>

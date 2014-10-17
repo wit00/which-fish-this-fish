@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fish_image_content_description">An image of this fish</string>
+    <string name="detail_population">Population</string>
+    <string name="detail_sources">Sources</string>
+    <string name="detail_harvesting">Harvesting</string>
+    <string name="detail_fishing_effects">Fishing Effects</string>
+    <string name="detail_impact_on_habitat">Impact on Habitat</string>
+    <string name="detail_fishing_rate">Fishing Rate</string>
+    <string name="detail_details">Details</string>
+    <string name="menu_rank_explanation">Rank Explanation</string>
+    <string name="fish_rank_image_content_description">this fish\'s rank</string>
+    <string name="use_rarely">Use Rarely.</string>
+    <string name="more_information">Read description form more information.</string>
+    <string name="good_choice">A great choice!</string>
+    <string name="whats_it_like">What\'s it Like?</string>
+    <string name="fish_loading_no_list">Which Fish is loading your fishes. This can take a few minutes, especially if it\'s the first time you\'ve used this application. Your fish will appear once they\'ve been loaded into the database.</string>
+</resources>

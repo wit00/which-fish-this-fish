@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_horizontal_margin">
+    <RelativeLayout
+        android:id="@+id/about_text"
+        android:layout_marginTop="@dimen/main_section_top_margin"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/characteristics"
+            android:text="@string/whats_it_like"
+            android:textSize="@dimen/second_header_text_size"
+            android:padding="@dimen/basic_padding"
+            android:background="@color/which_fish_blue"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/fish_characteristics"
+            android:layout_width="wrap_content"
+            android:padding="@dimen/indent_margin"
+            android:textSize="@dimen/standard_text_size"
+            android:layout_below="@id/characteristics"
+            android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:id="@+id/compare"
+            android:layout_below="@id/fish_characteristics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/compareLabel"
+                android:text="@string/compare_to"
+                android:textSize="@dimen/standard_text_size"
+                android:layout_marginLeft="@dimen/indent_margin"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/compareValue"
+                android:textSize="@dimen/standard_text_size"
+                android:layout_marginLeft="@dimen/table_row_info_margin_left"
+                android:layout_toRightOf="@id/compareLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <TextView
+            android:layout_below="@id/compare"
+            android:layout_marginTop="20dp"
+            android:id="@+id/howToEatTitle"
+            android:text="@string/recipe_suggestion"
+            android:padding="5dp"
+            android:background="@color/which_fish_blue"
+            android:textStyle="bold"
+            android:textSize="@dimen/second_header_text_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:layout_below="@id/howToEatTitle"
+                android:id="@+id/howToEatValue"
+                android:padding="@dimen/indent_margin"
+                android:textSize="@dimen/standard_text_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+    </RelativeLayout>
+</ScrollView>
